@@ -1,0 +1,15 @@
+.contaner{
+    padding: 20px;
+}
+.dashboard_details{
+    padding: 5px;
+    text-align: center;
+}
+table {
+    width: 100%;
+  }
+  
+  th.mat-sort-header-sorted {
+    color: black;
+  }
+  

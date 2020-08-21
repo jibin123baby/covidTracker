@@ -1,0 +1,19 @@
+<div class="flex">
+    <div class="flex-item">
+        <canvas baseChart width="400" height="400"
+            [datasets]="lineChartData"
+            [labels]="lineChartLabels"
+            [options]="lineChartOptions"
+            [colors]="lineChartColors"
+            [legend]="lineChartLegend"
+            [chartType]="lineChartType"
+            [plugins]="lineChartPlugins">
+        </canvas>
+    </div>
+    <div class="flex-item row button-div">
+        <button mat-button mat-raised-button class="btn btn-primary buttonStyle col-md-3 col-lg-3" (click)="displayActive()">Active</button>
+        <button mat-button mat-raised-button class="btn btn-success buttonStyle col-md-3 col-lg-3" (click)="displayRecovered()">Recovered</button>
+        <button mat-button mat-raised-button class="btn btn-danger buttonStyle col-md-3 col-lg-3" (click)="displayDeceased()">Deceased</button>
+        
+    </div>
+</div>

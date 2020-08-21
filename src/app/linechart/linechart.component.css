@@ -1,0 +1,8 @@
+.buttonStyle{
+    padding: 3px;
+    margin: 10px;
+    width: 100px;;
+}
+.button-div{
+    display: block; margin: 0 auto;
+}
